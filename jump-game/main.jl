@@ -1,5 +1,7 @@
 importall SFML
 
+cd(dirname(Base.source_path()))
+
 const mode = get_desktop_mode()
 
 const window_width = Int(mode.width)
@@ -7,7 +9,7 @@ const window_height = Int(mode.height)
 
 const gravity = Vector2f(0, 0.5)
 const maxspeed = 17/2560 * window_width
-const jump_height = 22/1440 * window_height
+const jump_height = 22
 
 const blue_platform_texture = Texture("img/blueplatform.png")
 const red_platform_texture = Texture("img/redplatform.png")
