@@ -1,6 +1,6 @@
 # JuliaCon Example Programs
 
-Here is the source for the examples used for the [SFML.jl] (https://github.com/zyedidia/SFML.jl) talk at JuliaCon.
+Here is the source for the examples used for the [SFML.jl] (https://github.com/zyedidia/SFML.jl) talk at JuliaCon 2015.
 
 Dependencies for the programs:
 
